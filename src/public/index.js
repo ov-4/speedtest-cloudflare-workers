@@ -4,7 +4,7 @@ const html = `<!DOCTYPE html>
 <link rel="shortcut icon" href="favicon.ico">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-<title>Speed Test with Cloudflare Worker and LibreSpeed</title>
+<title>speed.ov4.net Anycast Internet Speedtest</title>
 <script type="text/javascript" src="speedtest.js"></script>
 <script type="text/javascript">
 
@@ -238,8 +238,6 @@ function I(id){return document.getElementById(id);}
         IP Address: <span id="ip"></span>
     </div>
 </div>
-<a href="https://github.com/publicarray/cf-workers/tree/master/packages/speed">Source code</a>
-<a href="https://github.com/librespeed/speedtest">LibreSpeed Source Code</a>
 <script type="text/javascript">
     initUI();
     loadServers();
