@@ -206,7 +206,7 @@ function I(id){return document.getElementById(id);}
 </style>
 </head>
 <body>
-<h1>Speed Test with Cloudflare Worker and LibreSpeed</h1>
+<h1>speed.ov4.net Anycast Internet Speedtest</h1>
 <div id="startStopBtn" onclick="startStop()"></div>
 <div id="serverId">Selecting server...</div>
 <div id="test">
