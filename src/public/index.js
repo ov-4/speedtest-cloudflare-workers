@@ -4,14 +4,14 @@ const html = `<!DOCTYPE html>
 <link rel="shortcut icon" href="favicon.ico">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
-<title>speed.ov4.net Anycast Internet Speedtest</title>
+<title>speed.ov4.one Speedtest</title>
 <script type="text/javascript" src="speedtest.js"></script>
 <script type="text/javascript">
 
 //LIST OF TEST SERVERS. See documentation for details if needed
 var SPEEDTEST_SERVERS=[
     {
-        name:"Cloudflare",
+        name:" ",
         server: "//" + window.location.host + "/",
         dlURL:"down?bytes=10000000",
         ulURL:"up",
@@ -206,7 +206,7 @@ function I(id){return document.getElementById(id);}
 </style>
 </head>
 <body>
-<h1>speed.ov4.net Anycast Internet Speedtest</h1>
+<h1>speed.ov4.one Speedtest</h1>
 <div id="startStopBtn" onclick="startStop()"></div>
 <div id="serverId">Selecting server...</div>
 <div id="test">
