@@ -16,7 +16,7 @@ var SPEEDTEST_SERVERS=[
         dlURL:"down?bytes=10000000",
         ulURL:"up",
         pingURL:"ping",
-        getIpURL:"https://ip.seby.io"
+        getIpURL:"ip"
     }
     //add other servers here, comma separated
 ];
