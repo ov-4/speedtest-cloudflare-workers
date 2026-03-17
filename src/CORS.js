@@ -3,7 +3,7 @@ async function handleRequest(request) {
   res.headers.set('access-control-allow-origin', '*');
   res.headers.set('access-control-allow-methods', 'GET, POST');
   res.headers.set(
-    'access-control-request-headers',
+    'access-control-allow-headers',
     'Content-Encoding, Content-Type'
   );
   return res;
