@@ -12,7 +12,7 @@ const html = `<!DOCTYPE html>
 var SPEEDTEST_SERVERS=[
     {
         name:"Cloudflare",
-        server:"https://speed.seby.io/",
+        server:"/",
         dlURL:"down?bytes=10000000",
         ulURL:"up",
         pingURL:"ping",
